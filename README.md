@@ -1,3 +1,3 @@
-# Traditiona-ML-Project
+# Traditional-ML-Project
 This project focuses on classifying breast cancer tumours as benign or malignant using both supervised and unsupervised machine learning techniques. It utilises the Breast Cancer Wisconsin Dataset (Kaggle)
 . To better simulate real-world scenarios, the dataset was intentionally modified by introducing noise, including missing values and class imbalance, allowing for practical application of preprocessing techniques such as median imputation, SMOTE, and feature scaling. A Random Forest classifier was trained for supervised learning, while DBSCAN clustering with PCA was used for unsupervised pattern exploration. Model performance was evaluated using accuracy, precision, recall, and cross-validation..
