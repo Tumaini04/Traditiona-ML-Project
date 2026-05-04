@@ -5,7 +5,7 @@ This project presents an end-to-end data science pipeline combining traditional 
 For structured data analysis, the project focuses on classifying breast cancer tumours as benign or malignant using both supervised and unsupervised learning approaches. The primary dataset used is the Breast Cancer Wisconsin Dataset:
 https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data
 
-To better simulate real-world scenarios, the dataset was intentionally modified by introducing noise, including missing values and class imbalance. This enabled the practical application of preprocessing techniques such as median imputation, SMOTE for handling imbalance, and feature scaling.
+To better simulate real-world data challenges, the dataset was intentionally modified by introducing noise, including missing (NaN) values and class imbalance. This allowed for the practical demonstration of data preprocessing techniques such as median imputation for handling missing values, SMOTE for addressing class imbalance, and feature scaling for model optimisation.
 
 A Random Forest classifier was implemented for supervised learning, while K-Means and DBSCAN clustering algorithms were applied for unsupervised pattern exploration. Principal Component Analysis (PCA) was used for dimensionality reduction and visualisation.
 
